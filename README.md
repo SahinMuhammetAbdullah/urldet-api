@@ -4,7 +4,7 @@
 
 This repository contains the backend server and machine learning engine for the **URLDet** project. It's a Flask-based API that receives a URL, processes it through a feature extraction pipeline, and uses pre-trained Machine Learning models to determine if the URL is malicious and to classify the threat type.
 
-[**See the Frontend (Website)**](https://github.com/SahinMuhammetAbdullah/urldet-web) | [**See the Browser Extension**](https://github.com/SahinMuhammetAbdullah/urldet-extension) | [**Read in Turkish (Türkçe Oku)**](./README.tr.md)
+[**See the Frontend (Website)**](https://urldet.masahin.dev/) | [**See the Browser Extension**](https://chrome.google.com/webstore/detail/phjancankjcbmdjcdlipmhlnjhljakjf) | [**Read in Turkish (Türkçe Oku)**](./README.tr.md)
 
 ---
 

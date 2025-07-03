@@ -4,7 +4,7 @@
 
 Bu repo, **URLDet** projesinin backend sunucusunu ve makine öğrenmesi motorunu içerir. Bu, analiz edilecek bir URL'yi içeren bir JSON verisi ile `POST` isteklerini kabul eden, Flask tabanlı bir API'dir. Gelen URL'yi bir özellik çıkarma hattından geçirir ve URL'nin kötü amaçlı olup olmadığını ve tehdit türünü belirlemek için önceden eğitilmiş Makine Öğrenmesi modellerini kullanır.
 
-[**Frontend'i (Web Sitesi) Gör**](https://github.com/SahinMuhammetAbdullah/urldet-web) | [**Tarayıcı Eklentisini Gör**](https://github.com/SahinMuhammetAbdullah/urldet-extension) | [**Read in English (İngilizce Oku)**](./README.md)
+[**Frontend'i (Web Sitesi) Gör**](https://urldet.masahin.dev/) | [**Tarayıcı Eklentisini Gör**](https://chrome.google.com/webstore/detail/phjancankjcbmdjcdlipmhlnjhljakjf) | [**Read in English (İngilizce Oku)**](./README.md)
 
 ---
 
