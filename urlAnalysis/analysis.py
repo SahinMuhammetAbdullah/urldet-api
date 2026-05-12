@@ -68,30 +68,3 @@ class URLAnalyzer:
                 "url": url,
                 "is_malicious": None
             }
-
-# if __name__ == "__main__":
-#     # Model dosya yolları
-#     rf_model_path="random-forest/RandomForestClassifierBinaryV3.pkl"
-#     dqn_model_path="second-stage-pkl/multiclass_dqn_modelV4-92-new"
-    
-#     # Analiz sınıfını başlat
-#     analyzer = URLAnalyzer(rf_model_path, dqn_model_path)
-    
-#     while True:
-#         url = input("\nAnaliz edilecek URL'yi girin (Çıkış için Enter'a basın): ").strip()
-        
-#         if not url:  # Boş giriş yapıldıysa çık
-#             print("Çıkış yapılıyor...")
-#             break
-        
-#         result = analyzer.analyze_url(url)
-        
-#         print(f"\nURL: {result['url']}")
-#         if "error" in result:
-#             print(f"Hata: {result['error']}")
-#         else:
-#             print(f"Zararlı mı?: {result['is_malicious']}")
-#             print(f"Zararsız olma olasılığı: {result['benign_probability']:.2%}")
-#             print(f"Zararlı olma olasılığı: {result['malicious_probability']:.2%}")
-#             if result['is_malicious']:
-#                 print(f"Zararlı Yazılım Türü: {result['malware_type']}")
