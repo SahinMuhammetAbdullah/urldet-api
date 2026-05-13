@@ -14,11 +14,11 @@ This repository contains the backend server and machine learning engine for the 
 
 ## 🔗 Related Repositories
 
-| Repository | Description |
-|---|---|
+| Repository                                                                        | Description                                                              |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | [**urldet-extension**](https://github.com/SahinMuhammetAbdullah/urldet-extension) | Chrome extension that integrates URL analysis into Google search results |
-| [**urldet-web**](https://github.com/SahinMuhammetAbdullah/urldet-web) | React-based website for manual URL analysis and project showcase |
-| [**urldet-api**](https://github.com/SahinMuhammetAbdullah/urldet-api) | Flask backend API powering the ML-based URL analysis engine (this repo) |
+| [**urldet-web**](https://github.com/SahinMuhammetAbdullah/urldet-web)             | React-based website for manual URL analysis and project showcase         |
+| [**urldet-api**](https://github.com/SahinMuhammetAbdullah/urldet-api)             | Flask backend API powering the ML-based URL analysis engine (this repo)  |
 
 ## ⚙️ How It Works
 
@@ -54,8 +54,9 @@ To get a local copy up and running, follow these steps.
    ```
 4. **Install the required packages:**
    ```sh
-   pip install -r requirements.txt
+      pip install -r requirements.txt
    ```
+      > See [`requirements.txt`](./requirements.txt) for the full list of dependencies.
 5. **Place the models:**
    - Ensure the pre-trained models (`rf_binary.pkl` and `multiclass_dqn_model.zip`) are inside the `/models` directory.
    - Ensure the `tld_weights.csv` file is inside the `/pars_state` directory.

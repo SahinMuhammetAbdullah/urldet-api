@@ -50,8 +50,9 @@ Yerel bir kopyayı çalıştırmak için şu adımları izleyin.
    ```
 4. **Gerekli paketleri yükleyin:**
    ```sh
-   pip install -r requirements.txt
+      pip install -r requirements.txt
    ```
+      > Bağımlılıkların tam listesi için [`requirements.txt`](./requirements.txt) dosyasına bakın.
 5. **Modelleri yerleştirin:**
    - Önceden eğitilmiş modellerin (`rf_binary.pkl` ve `multiclass_dqn_model.zip`) `/models` dizininde bulunduğundan emin olun.
    - `tld_weights.csv` dosyasının `/pars_state` dizininde bulunduğundan emin olun.
