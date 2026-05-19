@@ -88,5 +88,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 Muhammet Abdullah Şahin - [GitHub Profile](https://github.com/SahinMuhammetAbdullah)
-
-Project Link: [https://github.com/SahinMuhammetAbdullah/urldet-api](https://github.com/SahinMuhammetAbdullah/urldet-api)
